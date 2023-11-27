@@ -273,7 +273,7 @@ class Snake {
      http.addEventListener("readystatechange", function() {
      console.log(http.responseText);
      });
-     http.open("GET", "https://snake.howbout.app/api/pranamika/high-scores");
+     http.open("GET", "https://snake.howbout.app/api/prity/high-scores");
      http.setRequestHeader("Content-Type", "application/json");
      http.onload = function(){ 
      
@@ -318,7 +318,7 @@ class Snake {
      }
        });
 
-     xhr.open("POST", "https://snake.howbout.app/api/pranamika/high-scores");
+     xhr.open("POST", "https://snake.howbout.app/api/prity/high-scores");
      xhr.setRequestHeader("Content-Type", "application/json");
      //xhr.setRequestHeader("Access-Control-Allow-Origin", "https://snake.howbout.app/");
      xhr.onload = function(){ 
